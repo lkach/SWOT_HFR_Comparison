@@ -1,0 +1,12 @@
+### For 2023 calendar year
+https://hfrnet-tds.ucsd.edu/thredds/ncss/HFR/USWC/6km/hourly/RTV/HFRADAR_US_West_Coast_6km_Resolution_Hourly_RTV_best.ncd?var=hdop&var=number_of_radials&var=number_of_sites&var=u&var=v&north=42&west=-125.5&east=-122.5&south=37.5&disableProjSubset=on&horizStride=1&time_start=2023-01-01T00%3A00%3A00Z&time_end=2023-12-23T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf
+
+
+### for 1 year centered on June 1, 2023
+https://hfrnet-tds.ucsd.edu/thredds/ncss/HFR/USWC/6km/hourly/RTV/HFRADAR_US_West_Coast_6km_Resolution_Hourly_RTV_best.ncd?var=hdop&var=number_of_radials&var=number_of_sites&var=u&var=v&north=42&west=-125.5&east=-122.5&south=37.5&disableProjSubset=on&horizStride=1&time_start=2022-12-01T00%3A00%3A00Z&time_end=2023-12-01T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf
+
+### Same as the last one but without number of radials and number of sites
+https://hfrnet-tds.ucsd.edu/thredds/ncss/HFR/USWC/6km/hourly/RTV/HFRADAR_US_West_Coast_6km_Resolution_Hourly_RTV_best.ncd?var=hdop&var=u&var=v&north=42&west=-125.5&east=-122.5&south=37.5&horizStride=1&time_start=2022-12-01T00%3A00%3A00Z&time_end=2023-12-01T00%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf
+
+### Using the same spatial limits as the earlier iteration:
+wget "https://hfrnet-tds.ucsd.edu/thredds/ncss/HFR/USWC/6km/hourly/RTV/HFRADAR_US_West_Coast_6km_Resolution_Hourly_RTV_best.ncd?var=hdop&var=number_of_radials&var=number_of_sites&var=u&var=v&north=42&west=-125.4&east=-122&south=37&disableProjSubset=on&horizStride=1&time_start=2022-12-01T00%3A00%3A00Z&time_end=2023-12-01T21%3A00%3A00Z&timeStride=1&addLatLon=true&accept=netcdf" -O "./HFR_NorCal_CalVal_2023.nc"
